@@ -1,0 +1,98 @@
+html{
+    font-size: 65%;
+}
+.section-transfer{
+    height: 43vh;
+    
+}
+
+.option-selects{
+display: flex;
+width: 30%;
+justify-content: space-between;
+background-color: #eb09eb;
+font-family: 'cursive';
+font-weight: 600;
+
+}
+.transfer-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.see-transfer{
+    padding: 1% 1rem;
+}
+.see-transfer .see-more{
+    font-size: 3rem;
+    font-family: 'cursive';
+    color: purple;
+    font-weight: 600;
+}
+.see-transfer a{
+    display: block;
+    color: #098309;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.see-transfer a:hover{
+    color: orange;
+}
+.latest-transfer{
+    
+}
+.latest-transfer .see-newstransfer{
+   font-size: 2.5rem;
+    font-family: 'cursive';
+    color: purple;
+    font-weight: 600;  
+    margin-bottom: 2rem;
+       padding: 1% 1rem;
+}
+.image1 img{
+    width: 20%;
+    display: flex;
+    margin-top: 3rem;
+    border: 2px solid orange;
+    
+}
+.image1 {
+    display: flex;
+    gap: 3rem;
+       padding: 1% 1rem;
+    
+}
+.player-status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
+}
+.player-status h2{
+    color: red;
+    font-style: oblique;
+    font-weight: 550;
+    margin-bottom: 1rem;
+
+}
+/* break point */
+@media (max-width:610px) {
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width:430px) {
+ html{
+    font-size: 50%;
+ }
+ .transfer-full{
+    display: inline-block;
+    text-align: center;
+    
+ }
+}
